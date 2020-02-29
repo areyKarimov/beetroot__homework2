@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container nav__flex">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#">Главная</a></li>
+                <li class="nav__item"><a href="#">Наши работы</a></li>
+                <li class="nav__item nav__item-active"><a href="#">Записаться</a></li>
+                <li class="nav__item"><a href="#">Контакты</a></li>
+                <li class="nav__item"><a href="#">HTML Academy</a></li>
+            </ul>
+            <button href="#" class="formButton">Войти</button>
+        </div>
+    </nav>
+    <header class="header header__form">
+        <div class="header__logo"></div>
+        <div class="haircut"></div>
+    </header>
+
+    <form class="form">
+        <div class="container">
+            <div class="inform__inner">
+                <h1 class="inform__title">Запись на стрижку</h1>
+                <a href="index.html" class="inform__button">На главную</a>
+            </div>
+            <div class="form__input">
+                <input type="text" name="имя" placeholder="Имя" class="form__input-name">
+                <input type="text" name="фамилия" placeholder="Фамилия" class="form__input-sername">
+                <input type="text" name="отчество" placeholder="Отчество" class="form__input-secondName">
+                <input type="tel" name="телефон" placeholder="Контактный телефон" class="form__input-tell">
+                <input type="email" name="почта" placeholder="Контактный e-mail" class="form__input-mail">
+                <textarea name="" id="" cols="30" rows="10" class="form__input-additional" placeholder="Доп. информация для мастера" maxlength="250"></textarea>
+            </div>
+            <div class="form__beard">
+                <h2 class="form__subtitle">Выберите модель бороды:</h2>
+                <div class="form__beard-inputs">
+                    <label class="form__beard-item">
+                        <input name="beard" value="адмирал" type="radio">
+                        <div class="form__beard-item-radio"></div>
+                        <div class="form__beard-item-title">адмирал</div>
+                        <img src="img/beard-1.png" alt="admiral">
+                    </label>
+                    <label class="form__beard-item">
+                        <input name="beard" value="лесоруб" type="radio">
+                        <div class="form__beard-item-radio"></div>
+                        <div class="form__beard-item-title">лесоруб</div>
+                        <img src="img/beard-2.png" alt="woodcuter">
+                    </label>
+                    <label class="form__beard-item">
+                        <input name="beard" value="полярник" type="radio">
+                        <div class="form__beard-item-radio"></div>
+                        <div class="form__beard-item-title">полярник</div>
+                        <img src="img/beard-3.png" alt="polar">
+                    </label>
+                    <label class="form__beard-item">
+                        <input name="beard" value="боярин" type="radio">
+                        <div class="form__beard-item-radio"></div>
+                        <div class="form__beard-item-title">боярин</div>
+                        <img src="img/beard-4.png" alt="boyar">
+                    </label>
+                    <label class="form__beard-item">
+                        <input name="beard" value="мудрец" type="radio">
+                        <div class="form__beard-item-radio"></div>
+                        <div class="form__beard-item-title">мудрец</div>
+                        <img src="img/beard-5.png" alt="wiseacre">
+                    </label>
+                </div>
+                <div class="form__serves">
+                    <h2 class="form__subtitle">Дополнительные услуги:</h2>
+                    <div class="form__serves-inputs">
+                        <label class="form__serves-item">
+                        <input value="Подкрасить бороду" type="checkbox">
+                        <div class="form__serves-item-check"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px"><path d="M 26.980469 5.9902344 A 1.0001 1.0001 0 0 0 26.292969 6.2929688 L 11 21.585938 L 4.7070312 15.292969 A 1.0001 1.0001 0 1 0 3.2929688 16.707031 L 10.292969 23.707031 A 1.0001 1.0001 0 0 0 11.707031 23.707031 L 27.707031 7.7070312 A 1.0001 1.0001 0 0 0 26.980469 5.9902344 z"/></svg></div>
+                        <div class="form__serves-item-title">Подкрасить бороду</div>
+                    </label>
+                        <label class="form__serves-item">
+                        <input value="Причесать бороду" type="checkbox">
+                        <div class="form__serves-item-check"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px"><path d="M 26.980469 5.9902344 A 1.0001 1.0001 0 0 0 26.292969 6.2929688 L 11 21.585938 L 4.7070312 15.292969 A 1.0001 1.0001 0 1 0 3.2929688 16.707031 L 10.292969 23.707031 A 1.0001 1.0001 0 0 0 11.707031 23.707031 L 27.707031 7.7070312 A 1.0001 1.0001 0 0 0 26.980469 5.9902344 z"/></svg></div>
+                        <div class="form__serves-item-title">Причесать бороду</div>
+                    </label>
+                        <label class="form__serves-item">
+                        <input value="Убрать седину" type="checkbox">
+                        <div class="form__serves-item-check"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px"><path d="M 26.980469 5.9902344 A 1.0001 1.0001 0 0 0 26.292969 6.2929688 L 11 21.585938 L 4.7070312 15.292969 A 1.0001 1.0001 0 1 0 3.2929688 16.707031 L 10.292969 23.707031 A 1.0001 1.0001 0 0 0 11.707031 23.707031 L 27.707031 7.7070312 A 1.0001 1.0001 0 0 0 26.980469 5.9902344 z"/></svg></div>
+                        <div class="form__serves-item-title">Убрать седину</div>
+                    </label>
+                        <label class="form__serves-item">
+                        <input value="Накрутить усы" type="checkbox">
+                        <div class="form__serves-item-check"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px"><path d="M 26.980469 5.9902344 A 1.0001 1.0001 0 0 0 26.292969 6.2929688 L 11 21.585938 L 4.7070312 15.292969 A 1.0001 1.0001 0 1 0 3.2929688 16.707031 L 10.292969 23.707031 A 1.0001 1.0001 0 0 0 11.707031 23.707031 L 27.707031 7.7070312 A 1.0001 1.0001 0 0 0 26.980469 5.9902344 z"/></svg></div>
+                        <div class="form__serves-item-title">Накрутить усы</div>
+                    </label>
+                        <label class="form__serves-item">
+                        <input value="Подровнять виски" type="checkbox">
+                        <div class="form__serves-item-check"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px"><path d="M 26.980469 5.9902344 A 1.0001 1.0001 0 0 0 26.292969 6.2929688 L 11 21.585938 L 4.7070312 15.292969 A 1.0001 1.0001 0 1 0 3.2929688 16.707031 L 10.292969 23.707031 A 1.0001 1.0001 0 0 0 11.707031 23.707031 L 27.707031 7.7070312 A 1.0001 1.0001 0 0 0 26.980469 5.9902344 z"/></svg></div>
+                        <div class="form__serves-item-title">Подровнять виски</div>
+                    </label>
+                        <label class="form__serves-item">
+                        <input value="Отполировать лысину" type="checkbox">
+                        <div class="form__serves-item-check"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px"><path d="M 26.980469 5.9902344 A 1.0001 1.0001 0 0 0 26.292969 6.2929688 L 11 21.585938 L 4.7070312 15.292969 A 1.0001 1.0001 0 1 0 3.2929688 16.707031 L 10.292969 23.707031 A 1.0001 1.0001 0 0 0 11.707031 23.707031 L 27.707031 7.7070312 A 1.0001 1.0001 0 0 0 26.980469 5.9902344 z"/></svg></div>
+                        <div class="form__serves-item-title">Отполировать лысину</div>
+                    </label>
+                    </div>
+                    <input type="submit" name="отправить" value="отправить заявку" class="form__send">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__location">
+                <div class="footer__location-title">Барбершоп Бородинский</div>
+                <div class="footer__location-adress">г. Санкт-Петербург, ул. Большая Конюшенная 19/8 </br> Тел.: +7 (812) 555-66-66</div>
+            </div>
+            <div class="footer__social">
+                <div class="footer__social-title">Давайте дружить!</div>
+                <div class="footer__social-block">
+                    <a href="#" class="footer__social-vk"><img src="img/vk.png" alt="vk"></a>
+                    <a href="#" class="footer__social-fb"><img src="img/fb.png" alt="fb"></a>
+                    <a href="#" class="footer__social-inst"><img src="img/inst.png" alt="inst"></a>
+                </div>
+            </div>
+            <div class="footer__developed">
+                <div class="footer__developed-title">Разработано:</div>
+                <a class="inform__button footer__developed-link">HTML ACADEMY</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
